@@ -1,0 +1,28 @@
+{
+    "name": "twofas/validation-rules",
+    "description": "Validation rules for SDK",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Krystian Dąbek",
+            "email": "k.dabek@2fas.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TwoFAS\\ValidationRules\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/ValidationRulesTest.php"
+        ]
+    }
+}
