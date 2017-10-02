@@ -23,6 +23,17 @@ class ValidationRules
     const SIZE                                   = 'validation.size';
     const REGEX                                  = 'validation.regex';
     const AES_CIPHER                             = 'validation.aes_cipher';
+    const TWOFAS_FORMATTABLE                     = 'validation.two_f_a_s_formattable';
+    const BACKUP_CODE                            = 'validation.backup_code';
+    const PUSHER_SOCKET_ID                       = 'validation.pusher_socket_id';
+    const PUSHER_CHANNEL_NAME                    = 'validation.pusher_channel_name';
+    const INTEGRATION_CHANNEL_NAME               = 'validation.private_integration_channel';
+    const CHANNEL_ENABLING                       = 'validation.channel_enabling_rules';
+    const CHANNEL_DISABLING                      = 'validation.channel_disabling_rules';
+    const CLIENT_NO_INTEGRATION_WITH_PAID_METHOD = 'validation.client_has_no_integrations_with_paid_method_if_card_is_primary';
+    const CLIENT_VALID_SOURCE                    = 'validation.valid_client_source';
+    const CLIENT_PASSWORD_EQUALS                 = 'validation.client_password_equals';
+    const KEY_VALID                              = 'validation.valid_key_type';
     const UNSUPPORTED                            = 'validation.unsupported';
 
     /**

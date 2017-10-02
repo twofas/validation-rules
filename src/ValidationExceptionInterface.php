@@ -34,7 +34,7 @@ interface ValidationExceptionInterface
     /**
      * @param string $key
      *
-     * @return mixed|null
+     * @return array|null
      */
     public function getBareError($key);
 }
