@@ -22,6 +22,7 @@ class ValidationRules
     const MIN                                    = 'validation.min';
     const SIZE                                   = 'validation.size';
     const REGEX                                  = 'validation.regex';
+    const TOTP_SECRET                            = 'validation.totp_secret';
     const AES_CIPHER                             = 'validation.aes_cipher';
     const TWOFAS_FORMATTABLE                     = 'validation.two_f_a_s_formattable';
     const BACKUP_CODE                            = 'validation.backup_code';
